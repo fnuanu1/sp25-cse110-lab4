@@ -1,0 +1,2 @@
+1. The bug was that the two variables, num1 and num2 are string variables so the result data type turns out to be string which is why the two numbers are concatenated instead of being added like numbers.
+2. I fixed it by using the parseInt method which basically turns a string into an integer.
