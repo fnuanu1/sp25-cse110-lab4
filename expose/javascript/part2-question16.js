@@ -3,7 +3,7 @@ let statistics = {
 };
 for (const property in statistics) {
   //  print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number
-  if(property[0] === "r" || statistics[property]%2!=0) {
+  if(property[0] === "r" || statistics[property]%2 != 0) {
     console.log(`${statistics[property]}`);
   }
 }
